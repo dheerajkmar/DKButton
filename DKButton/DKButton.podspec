@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/dheerajkmar/DKButton.git", :branch => "master", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/dheerajkmar/DKButton.git", :branch => "master", :tag => "#{spec.version.to_spec}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
