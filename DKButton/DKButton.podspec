@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "DKButton"
   spec.version      = "0.0.1"
-  spec.summary      = "A Cocoa Pod library written in Swift."
+  spec.summary      = "This is a customisable IBDesignable UIButton"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  This is customisable IBDesignable UIButton library.
+  A much much longer description of MyFramework.
                    DESC
 
   spec.homepage     = "https://github.com/dheerajkmar/DKButton"
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,8 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files = "DKButton/**/*.{h,m}"
+
+  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

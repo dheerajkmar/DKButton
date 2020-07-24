@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A27BB9EA24C81DBC001F0D8C /* DKButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27BB9E024C81DBC001F0D8C /* DKButton.framework */; };
-		A27BB9EF24C81DBC001F0D8C /* DKButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BB9EE24C81DBC001F0D8C /* DKButtonTests.swift */; };
 		A27BB9F124C81DBC001F0D8C /* DKButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A27BB9E324C81DBC001F0D8C /* DKButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A27BB9FB24C81E0A001F0D8C /* DKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BB9FA24C81E0A001F0D8C /* DKButton.swift */; };
 		A27BB9FD24C81EA7001F0D8C /* CGFloat+GradientPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BB9FC24C81EA7001F0D8C /* CGFloat+GradientPoints.swift */; };
@@ -21,16 +19,11 @@
 		A27BBA1224C82AA6001F0D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27BBA1124C82AA6001F0D8C /* Assets.xcassets */; };
 		A27BBA1524C82AA6001F0D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27BBA1324C82AA6001F0D8C /* LaunchScreen.storyboard */; };
 		A27BBA2024C82AA6001F0D8C /* DKButtonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BBA1F24C82AA6001F0D8C /* DKButtonExampleTests.swift */; };
+		A27BBA3124C83D20001F0D8C /* DKButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27BBA3024C83D20001F0D8C /* DKButtonTests.swift */; };
+		A27BBA3324C83D20001F0D8C /* DKButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27BB9E024C81DBC001F0D8C /* DKButton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A27BB9EB24C81DBC001F0D8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A27BB9D724C81DBC001F0D8C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A27BB9DF24C81DBC001F0D8C;
-			remoteInfo = DKButton;
-		};
 		A27BBA1C24C82AA6001F0D8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A27BB9D724C81DBC001F0D8C /* Project object */;
@@ -38,13 +31,19 @@
 			remoteGlobalIDString = A27BBA0524C82AA3001F0D8C;
 			remoteInfo = DKButtonExample;
 		};
+		A27BBA3424C83D20001F0D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27BB9D724C81DBC001F0D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27BB9DF24C81DBC001F0D8C;
+			remoteInfo = DKButton;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A27BB9E024C81DBC001F0D8C /* DKButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27BB9E324C81DBC001F0D8C /* DKButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKButton.h; sourceTree = "<group>"; };
 		A27BB9E424C81DBC001F0D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A27BB9E924C81DBC001F0D8C /* DKButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27BB9EE24C81DBC001F0D8C /* DKButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKButtonTests.swift; sourceTree = "<group>"; };
 		A27BB9F024C81DBC001F0D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27BB9FA24C81E0A001F0D8C /* DKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKButton.swift; sourceTree = "<group>"; };
@@ -62,6 +61,9 @@
 		A27BBA1B24C82AA6001F0D8C /* DKButtonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKButtonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27BBA1F24C82AA6001F0D8C /* DKButtonExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKButtonExampleTests.swift; sourceTree = "<group>"; };
 		A27BBA2124C82AA6001F0D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27BBA2E24C83D20001F0D8C /* DKButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27BBA3024C83D20001F0D8C /* DKButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKButtonTests.swift; sourceTree = "<group>"; };
+		A27BBA3224C83D20001F0D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,14 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A27BB9E624C81DBC001F0D8C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A27BB9EA24C81DBC001F0D8C /* DKButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +88,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A27BBA2B24C83D20001F0D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27BBA3324C83D20001F0D8C /* DKButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +106,7 @@
 				A27BB9ED24C81DBC001F0D8C /* DKButtonTests */,
 				A27BBA0724C82AA3001F0D8C /* DKButtonExample */,
 				A27BBA1E24C82AA6001F0D8C /* DKButtonExampleTests */,
+				A27BBA2F24C83D20001F0D8C /* DKButtonTests */,
 				A27BB9E124C81DBC001F0D8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,9 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				A27BB9E024C81DBC001F0D8C /* DKButton.framework */,
-				A27BB9E924C81DBC001F0D8C /* DKButtonTests.xctest */,
 				A27BBA0624C82AA3001F0D8C /* DKButtonExample.app */,
 				A27BBA1B24C82AA6001F0D8C /* DKButtonExampleTests.xctest */,
+				A27BBA2E24C83D20001F0D8C /* DKButtonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +167,15 @@
 			path = DKButtonExampleTests;
 			sourceTree = "<group>";
 		};
+		A27BBA2F24C83D20001F0D8C /* DKButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27BBA3024C83D20001F0D8C /* DKButtonTests.swift */,
+				A27BBA3224C83D20001F0D8C /* Info.plist */,
+			);
+			path = DKButtonTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -195,24 +207,6 @@
 			productName = DKButton;
 			productReference = A27BB9E024C81DBC001F0D8C /* DKButton.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		A27BB9E824C81DBC001F0D8C /* DKButtonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A27BB9F724C81DBC001F0D8C /* Build configuration list for PBXNativeTarget "DKButtonTests" */;
-			buildPhases = (
-				A27BB9E524C81DBC001F0D8C /* Sources */,
-				A27BB9E624C81DBC001F0D8C /* Frameworks */,
-				A27BB9E724C81DBC001F0D8C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A27BB9EC24C81DBC001F0D8C /* PBXTargetDependency */,
-			);
-			name = DKButtonTests;
-			productName = DKButtonTests;
-			productReference = A27BB9E924C81DBC001F0D8C /* DKButtonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A27BBA0524C82AA3001F0D8C /* DKButtonExample */ = {
 			isa = PBXNativeTarget;
@@ -249,6 +243,24 @@
 			productReference = A27BBA1B24C82AA6001F0D8C /* DKButtonExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A27BBA2D24C83D20001F0D8C /* DKButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27BBA3624C83D20001F0D8C /* Build configuration list for PBXNativeTarget "DKButtonTests" */;
+			buildPhases = (
+				A27BBA2A24C83D20001F0D8C /* Sources */,
+				A27BBA2B24C83D20001F0D8C /* Frameworks */,
+				A27BBA2C24C83D20001F0D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27BBA3524C83D20001F0D8C /* PBXTargetDependency */,
+			);
+			name = DKButtonTests;
+			productName = DKButtonTests;
+			productReference = A27BBA2E24C83D20001F0D8C /* DKButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,15 +275,15 @@
 						CreatedOnToolsVersion = 11.2.1;
 						LastSwiftMigration = 1120;
 					};
-					A27BB9E824C81DBC001F0D8C = {
-						CreatedOnToolsVersion = 11.2.1;
-					};
 					A27BBA0524C82AA3001F0D8C = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 					A27BBA1A24C82AA6001F0D8C = {
 						CreatedOnToolsVersion = 11.2.1;
 						TestTargetID = A27BBA0524C82AA3001F0D8C;
+					};
+					A27BBA2D24C83D20001F0D8C = {
+						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
@@ -289,22 +301,15 @@
 			projectRoot = "";
 			targets = (
 				A27BB9DF24C81DBC001F0D8C /* DKButton */,
-				A27BB9E824C81DBC001F0D8C /* DKButtonTests */,
 				A27BBA0524C82AA3001F0D8C /* DKButtonExample */,
 				A27BBA1A24C82AA6001F0D8C /* DKButtonExampleTests */,
+				A27BBA2D24C83D20001F0D8C /* DKButtonTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A27BB9DE24C81DBC001F0D8C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A27BB9E724C81DBC001F0D8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,6 +333,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A27BBA2C24C83D20001F0D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -339,14 +351,6 @@
 				A27BB9FB24C81E0A001F0D8C /* DKButton.swift in Sources */,
 				A27BB9FF24C81EAF001F0D8C /* UIView+Layer.swift in Sources */,
 				A27BB9FD24C81EA7001F0D8C /* CGFloat+GradientPoints.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A27BB9E524C81DBC001F0D8C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A27BB9EF24C81DBC001F0D8C /* DKButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,18 +372,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A27BBA2A24C83D20001F0D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27BBA3124C83D20001F0D8C /* DKButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A27BB9EC24C81DBC001F0D8C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A27BB9DF24C81DBC001F0D8C /* DKButton */;
-			targetProxy = A27BB9EB24C81DBC001F0D8C /* PBXContainerItemProxy */;
-		};
 		A27BBA1D24C82AA6001F0D8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A27BBA0524C82AA3001F0D8C /* DKButtonExample */;
 			targetProxy = A27BBA1C24C82AA6001F0D8C /* PBXContainerItemProxy */;
+		};
+		A27BBA3524C83D20001F0D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27BB9DF24C81DBC001F0D8C /* DKButton */;
+			targetProxy = A27BBA3424C83D20001F0D8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,8 +539,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C664VL8VXV;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -541,6 +555,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.conduent.DKButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -552,8 +568,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C664VL8VXV;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -566,43 +584,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.conduent.DKButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A27BB9F824C81DBC001F0D8C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DKButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.conduent.DKButtonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A27BB9F924C81DBC001F0D8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DKButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.conduent.DKButtonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -684,6 +668,40 @@
 			};
 			name = Release;
 		};
+		A27BBA3724C83D20001F0D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DKButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conduent.DKButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27BBA3824C83D20001F0D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DKButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conduent.DKButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -705,15 +723,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A27BB9F724C81DBC001F0D8C /* Build configuration list for PBXNativeTarget "DKButtonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A27BB9F824C81DBC001F0D8C /* Debug */,
-				A27BB9F924C81DBC001F0D8C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A27BBA2224C82AA6001F0D8C /* Build configuration list for PBXNativeTarget "DKButtonExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -728,6 +737,15 @@
 			buildConfigurations = (
 				A27BBA2624C82AA6001F0D8C /* Debug */,
 				A27BBA2724C82AA6001F0D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27BBA3624C83D20001F0D8C /* Build configuration list for PBXNativeTarget "DKButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27BBA3724C83D20001F0D8C /* Debug */,
+				A27BBA3824C83D20001F0D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
